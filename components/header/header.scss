@@ -1,0 +1,84 @@
+$primary-color: #0AA8C1;
+
+.header {
+    padding: 12px 120px 12px 120px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #E6E9ED;
+}
+  
+#header .logo {
+    color: white;
+    align-self: center;
+    margin-left: 1.2rem;
+    font-size: 2.5rem;
+}
+  
+#header .searchbar {
+    display: flex;
+    justify-content: space-between;
+    width: 520px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 2px solid $primary-color;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+}
+  
+#header .searchbar img {
+    padding: 12px 20px 12px 20px;
+}
+  
+#header .searchbar input {
+    border: none;
+    width: 73%;
+}
+
+#header .searchbar input:focus {
+    outline: none;
+}
+  
+#header .searchbar ::placeholder {
+    color: #7E8CA0;
+    font-size: 14px;
+}
+
+#header .searchbar .btn-search {
+    float: right;
+    width: 68px;
+    height: 40px;
+    border-radius: 4px;
+    opacity: 0px;
+    color: white;
+    background-color: #0AA8C1;
+}
+
+#header button {
+    margin: auto;
+    width: 99px;
+    height: 48px;
+    border-radius: 4px;
+    font-size: 14px;
+    border: 2px solid $primary-color;
+}
+
+#header button.btn-register {
+    color: $primary-color;
+    margin-right: 5px;
+    background-color: white;
+}
+
+#header button.btn-login {
+    background-color: $primary-color;
+    color: white;
+}
+
+#header button.btn-register {
+    font-size: 14px;
+    border: 2px solid $primary-color;
+    border-radius: 4px;
+    padding: 12px;
+    color: $primary-color;
+    margin-right: 5px;
+}

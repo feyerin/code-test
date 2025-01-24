@@ -1,0 +1,66 @@
+$primary-color: #0AA8C1;
+
+body { 
+  margin: 0;
+  font-family: "Inter";
+}
+
+main {
+  margin: auto;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+  }
+  .content, .cards {
+      max-width: 100%;
+      margin-right: 0;
+  }
+  .card {
+      max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  #step .container {
+      flex-direction: column;
+  }
+  #step .step:not(:last-child) {
+      border-right: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .nav-bar {
+    display: none;
+    position: absolute;
+    top: 3.7rem;
+    left: 0;
+    width: 100%;
+    background-color: var(--bgcolor);
+    text-align: center;
+  }
+
+  .nav-bar.responsive {
+    display: block;
+  }
+
+  .nav-bar a {
+    display: block;
+  }
+
+  .menu-icon {
+    display: block;
+    z-index: 1;
+  }
+
+  button {
+    padding: 0.4rem;
+  }
+  .logo {
+    font-size: 1.4rem;
+  }
+}

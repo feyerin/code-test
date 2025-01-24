@@ -1,0 +1,121 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    color: #3C3B52;
+}
+.title {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    line-height: 36.31px;
+}
+.subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: #848B9D;
+    margin-bottom: 30px;
+}
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 278px;
+    border-radius: 8px;
+}
+.card img {
+    height: 240px;
+    width: 278px;
+    position: static;
+    border-radius: 8px;
+}
+.card-content {
+    padding: 20px;
+    text-align: left;
+    width: 234px;
+    margin: auto;
+    box-shadow: 0px 10px 20px 0px #EFF1F6;
+}
+.card-content img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: -25px;
+    border: 2px solid #fff;
+}
+.card-content h3 {
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #3C3B52;
+}
+.card-content .location {
+    color: #3A5AE3;
+    font-size: 12px;
+    margin: 5px 0;
+}
+.card-content .type {
+    color: #ff6f61;
+    font-size: 12px;
+    display: flex;
+    line-height: 14.52px;
+    margin: 10px 0 10px 0;
+}
+.card-content .tag {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #7E8CA0;
+}
+.card-content .price {
+    color: #3C3B52;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+}
+.card-content .button {
+    background-color: #0AA8C1;
+    color: #fff;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 40px;
+    font-size: 11px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 20px;
+    font-weight: 600;
+    margin: 10px 0 10px 0;
+}
+
+.load-button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #f0f0f0;
+}
+
+.button-container {
+    margin: 0 20px;
+}
+
+.button {
+    border: 1px solid #00bcd4;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #00bcd4;
+    text-decoration: none;
+    font-size: 14px;
+}

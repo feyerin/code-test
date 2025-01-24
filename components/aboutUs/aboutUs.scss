@@ -1,0 +1,78 @@
+#about-us .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 120px;
+  max-width: 1200px;
+  margin: auto;
+  color: #3C3B52;
+}
+#about-us .content {
+  flex: 1;
+  max-width: 45%;
+  margin-right: 40px;
+  text-align: left;
+}
+#about-us .content h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+#about-us .content p {
+  font-size: 16px;
+  line-height: 36.31px;
+}
+#about-us .card-container{
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+#about-us .card {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+#about-us .card {
+  width: 277px;
+  height: 99px;
+  padding: 0 20px 0 20px;
+}
+#about-us .card .text {
+  flex-grow: 1;
+  padding-left: 30px;
+  text-align: left;
+  width: 20px;
+}
+#about-us .card .arrow {
+  color: #ff7f50;
+  height: 10px; 
+  width: 10px;
+}
+#about-us .card .rectangle {
+  border-radius: 12px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+#about-us .card .rectangle img{
+ height: 20px;
+ width: 20px;
+}
+#about-us .card.kampus {
+  background-color: #FFF5EC;
+}
+#about-us .card.jurusan {
+  background-color: #E7FDFD;
+}
+#about-us .card.pendaftaran {
+  background-color: #FEF0F3;
+}
+#about-us .card.uji-potensi {
+  background-color: #F2F5FF;
+}
