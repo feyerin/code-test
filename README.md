@@ -72,4 +72,4 @@ yarn preview
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+https://www.figma.com/design/BjQmQx36QE1JcQ6NeHlQVB/Direktori-Kampus---Untuk-Code-Challenge?node-id=83-2&p=f&t=FP3YgbaHa6Shrmxj-0
